@@ -19,12 +19,12 @@ conda env create -f requirements.yaml
 ## Infer and Eval using trained models
 
 ```bash
-python -m main ./Block.xlsx
-python -m main ./Method.xlsx
-python -m main ./Block&Method.xlsx
-python -m main ./Code.xlsx
-python -m main ./Comment.xlsx
-python -m main ./Relation.xlsx
+python outDatePredict_RandomForest/Block.py
+python outDatePredict_RandomForest/Method.py
+python outDatePredict_RandomForest/Block&Method.py
+python outDatePredict_RandomForest/Code.py
+python outDatePredict_RandomForest/Comment.py
+python outDatePredict_RandomForest/Relation.py
 ```
 
 **NOTE**: In our paper, each model was trained and evaluated 10 times, and the reported results are the best performance of the experiments.
