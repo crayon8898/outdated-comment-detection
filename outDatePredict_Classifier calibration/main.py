@@ -17,7 +17,7 @@ from sklearn import svm
 import matplotlib.pyplot as plt
 from sklearn.svm import SVC
 
-df = pd.read_excel("/Users/crayon/Data/研究生/论文写作/Data-driven Code-Comment Consistency Detection and Analysis/实验/实验代码/getfeatures/features/Block&Method.xlsx")
+df = pd.read_csv("../features_drop_duplicates.csv")
 
 df.dropna(inplace=True)
 
