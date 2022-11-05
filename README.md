@@ -16,17 +16,21 @@ The replication package of paper *Are your comments outdated? Towards automatica
 conda env create -f requirements.yaml
 ```
 
-## Infer and Eval using trained models
+## Unzip the features
 
-```bash
-python outDatePredict_RandomForest/Block.py
-python outDatePredict_RandomForest/Method.py
-python outDatePredict_RandomForest/Block&Method.py
-python outDatePredict_RandomForest/Code.py
-python outDatePredict_RandomForest/Comment.py
-python outDatePredict_RandomForest/Relation.py
 ```
+unzip features_drop_duplicates.csv.zip
+```
+
+## Infer and Eval
+
+- Open outdate_ Predict folder, run the main program to detect outdated comments on all samples
+- Open other folders beginning with outDatePredict, and run the main program with folders ending with corresponding classifiers to test the performance of different classifiers
+- Open the outdate_predict_only_comment_change folder and run the main.py program to test RQ3 (samples with only commented changes)
+
+## utils
+
+Tools for data cleaning, original commit processing, feature extraction, word vector training, etc. (including CCSet extraction, change extraction, CCSet with only annotation change extraction, feature extraction, token feature extraction, sample de-duplication, and local csv generation)
 
 **NOTE**: In our paper, each model was trained and evaluated 10 times, and the reported results are the best performance of the experiments.
 So the outputs of the above commands would be different from those reported in our paper.
-
