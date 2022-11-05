@@ -2,7 +2,7 @@
 
 The replication package of paper *Are your comments outdated? Towards automatically detecting code-comment consistency*.
 
-## Dataset
+## Download resources
 
 - Download data sets and other related resources from [here](https://drive.google.com/file/d/1pZdO-sRt2W7KgEqW3nn-6AY35Niobe46/view?usp=sharing)
 
