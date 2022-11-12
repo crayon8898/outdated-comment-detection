@@ -4,7 +4,7 @@ from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix, recall_score, f1_score, precision_score
 
-df = pd.read_csv("../features_drop_duplicates.csv")
+df = pd.read_csv("../features_max_paper.csv")
 
 df.dropna(inplace=True)
 
