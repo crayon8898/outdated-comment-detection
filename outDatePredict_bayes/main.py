@@ -15,7 +15,7 @@ from sklearn import naive_bayes
 import matplotlib.pyplot as plt
 from sklearn.svm import SVC
 
-df = pd.read_csv("../features_drop_duplicates.csv")
+df = pd.read_csv("../features_max_paper.csv")
 
 df.dropna(inplace=True)
 
