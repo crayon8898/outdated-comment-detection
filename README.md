@@ -16,19 +16,12 @@ The replication package of paper *Are your comments outdated? Towards automatica
 conda env create -f requirements.yaml
 ```
 
-
-
 ## View the extracted features
 
-```
-features_max_paper.csv, these are the sample features we used in the paper. Here we calculate the similarity between token and sentence through max function.
-
-The following two features are extracted after we greatly expanded the data set after the paper submission. Because the data set is greatly expanded and the positive and negative samples are unbalanced, the results are reduced. Use sum function and max function respectively to calculate the similarity between token and sentence.
-
-expand_features_sum.csv
-expand_features_max.csv
-
-```
+- features_max_paper.csv, these are the sample features we used in the paper. Here we calculate the similarity between token and sentence through max function.
+- The following two features are extracted after we greatly expanded the data set after the paper submission. Because the data set is greatly expanded and the positive and negative samples are unbalanced, the results are reduced. Use sum function and max function respectively to calculate the similarity between token and sentence.
+  - expand_features_sum.csv
+  - expand_features_max.csv
 
 ## Infer and Eval
 
