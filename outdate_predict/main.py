@@ -12,7 +12,7 @@ from sklearn.metrics import ConfusionMatrixDisplay, confusion_matrix
 
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("../features_drop_duplicates.csv")
+df = pd.read_csv("../features_max_paper.csv")
 print('-----------df.RESULT.value_counts()---------------')
 print(df.label.value_counts())
 df.drop_duplicates(inplace=True)
