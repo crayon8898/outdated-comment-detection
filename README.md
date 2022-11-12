@@ -16,10 +16,10 @@ The replication package of paper *Are your comments outdated? Towards automatica
 conda env create -f requirements.yaml
 ```
 
-## Unzip the features
+## View the extracted features
 
 ```
-unzip features_drop_duplicates.csv.zip
+features_max_paper.csv
 ```
 
 ## Infer and Eval
