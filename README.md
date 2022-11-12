@@ -4,7 +4,7 @@ The replication package of paper *Are your comments outdated? Towards automatica
 
 ## Download resources
 
-- Download data sets and other related resources from [here](https://drive.google.com/file/d/19_S2sIQ-SOb4DJwn6J9m_1fhwgugXj7k/view?usp=sharing, https://drive.google.com/file/d/1C-NE-VUmEuMsNYHfL6r2wIOegeBgklaC/view?usp=sharing, https://drive.google.com/file/d/1MxaKPP6H6b08gRrS9TpFAMj4spOXoJJB/view?usp=sharing, https://drive.google.com/file/d/1fgtgqSCqec9wToqOisalMuxWMCS_MS9u/view?usp=sharing, https://drive.google.com/file/d/1jtYzPcqllvphwfGVAq4J4Bcz70n4LzGp/view?usp=sharing, https://drive.google.com/file/d/1tw5R5PtAeyf2xcX88sMFN3ER68wk_jJ1/view?usp=sharing)
+- Download data sets and other related resources from [here](https://drive.google.com/drive/folders/1VT6rXgyVDECpbBuwI1gNGu9VtDsidCkH?usp=sharing)
 
 ## Installation
 
