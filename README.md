@@ -42,4 +42,6 @@ conda env create -f requirements.yaml
 Tools for data cleaning, original commit processing, feature extraction, word vector training, etc. (including CCSet extraction, change extraction, CCSet with only annotation change extraction, feature extraction, token feature extraction, sample de-duplication, and local csv generation)
 
 **NOTE**: In our paper, each model was trained and evaluated 10 times, and the reported results are the best performance of the experiments.
-So the outputs of the above commands would be different from those reported in our paper.
+So the outputs of the above commands would be different from those reported in our paper. 
+
+**！！！** We collect data from different projects. Theoretically, we do not need to de duplicate after feature extraction. In the paper, we ignore the problem of de duplication, but after submission, we find that the extracted features have duplicate features (even if we also introduce the similarity of word vector changes). The possible reason is that the similarity of code and its changes in the same project is relatively high, so the extracted features will also repeat, We ignored this in the paper. We retrained the model for the features after de duplication. The model is about 5 points lower than the data in the paper. We open source the data after de duplication and in the paper on github.
