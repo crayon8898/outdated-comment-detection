@@ -18,22 +18,20 @@ import matplotlib.pyplot as plt
 from sklearn.svm import SVC
 
 df = pd.read_csv("../features_max_paper.csv")
-
 df.dropna(inplace=True)
 
 
 # print(df.head)
 df.head()
 print('-----------df.RESULT.value_counts()---------------')
-print(df.RESULT.value_counts())
+print(df.label.value_counts())
 
-y=df.RESULT
+y=df.label
 print('-----------y.head()---------------')
 print(y.head())
 
-x=df.drop('RESULT',axis=1)
-x=x.drop('ID',axis=1)
-x=x.drop('M/B_ID',axis=1)
+x=df.drop('label',axis=1)
+
 print('-----------x.head()---------------')
 print(x.head())
 
@@ -73,7 +71,7 @@ svc = NaivelyCalibratedLinearSVC(C=1.0,dual=False,max_iter=1000)
 gnb = naive_bayes.GaussianNB()
 # gnb.fit(xtrain, ytrain)
 #
-lr = linear_model.LogisticRegression(max_iter=10000,multi_class='ovr')
+lr = linear_model.LogisticRegression()
 # lr.fit(xtrain, ytrain)
 
 
